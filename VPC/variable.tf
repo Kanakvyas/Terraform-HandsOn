@@ -6,12 +6,12 @@ variable "AMI" {
     type = "map"
     
     default = {
-        ap-southeast-1 = "ami-09a4a9ce71ff3f20b"
+        ap-southeast-1 = "ami-**************"
     }
 }
 
 variable "PUBLIC_KEY_PATH" {
-default = "/home/kanak_vyas/Documents/kanak.pem"
+default = "/home/username/xyz.pem"
 }
 
 variable "VPC_CIDR_BLOCK" {
